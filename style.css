@@ -1,0 +1,413 @@
+/*----------'body padding' as the below content is being a knob and overlapping the nav-----------*/
+/*------------------------------------------------------------------------------------------------*/
+
+@media(max-width: 768px) {
+    .index-image {
+        padding-top: 100px;
+    }
+}
+@media(min-width: 768px) {
+    .index-image {
+       padding-top: 200px;
+    }
+}
+
+/*-------padding for destination pages-------*/
+@media(max-width: 768px) {
+    .desination-image {
+        padding-top: 100px;
+    }
+}
+@media(min-width: 768px) {
+    .destination-image {
+       padding-top: 140px;
+    }
+}
+
+/*----------padding for crew pages-----------*/
+@media(max-width: 768px) {
+    .crew-image {
+        padding-top: 90px;
+    }
+}
+@media(min-width: 768px) {
+    .crew-image {
+       padding-top: 140px;
+    }
+}
+
+/*--------padding for technology pages--------*/
+@media(max-width: 768px) {
+    .tech-image {
+        padding-top: 90px;
+    }
+}
+@media(min-width: 768px) {
+    .tech-image {
+       padding-top: 150px;
+    }
+}
+
+/*--center main heading on small devices--*/
+@media(max-width: 768px) {
+    .bellefair-h2-crew {
+        text-align: center;
+    }
+}
+/*--center crew images for mobile--*/
+@media(max-width: 768px) {
+    .crew-image {
+        text-align: center;
+    }
+}
+
+/*---------------------------------------Background Images---------------------------------------------/*
+/*-----------------------------------------------------------------------------------------------------/*
+
+/*--index.html homepage background image--*/
+.index-image {
+    background-image: url("assets/home/background-home-desktop.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+@media(max-width: 768px) {
+    .index-image {
+        background-image: url("assets/home/background-home-tablet.jpg");
+        background-size: cover;
+        height: 100%;
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+@media(max-width: 576px) {
+    .index-image {
+        background-image: url("assets/home/background-home-mobile.jpg");
+        background-size: cover;
+        height: 100%;
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-repeat: none;
+    }
+}
+
+/*--------Destination background image----------*/
+.destination-image {
+    background-image: url("assets/destination/background-destination-desktop.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+@media(max-width: 768px) {
+    .destination-image {
+        background-image: url("assets/destination/background-destination-tablet.jpg");
+        background-size: cover;
+        height: 100%;
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+@media(max-width: 576px) {
+    .destination-image {
+        background-image: url("assets/destination/background-destination-mobile.jpg");
+        background-size: cover;
+        height: 100%;
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-repeat: none;
+    }
+}
+
+/*--------crew background image---------*/
+.crew-image {
+    background-image: url("assets/crew/background-crew-desktop.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+@media(max-width: 768px) {
+    .crew-image {
+        background-image: url("assets/crew/background-crew-tablet.jpg");
+        background-size: cover;
+        height: 100%;
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+@media(max-width: 576px) {
+    .crew-image {
+        background-image: url("assets/crew/background-crew-mobile.jpg");
+        background-size: cover;
+        height: 100%;
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-repeat: none;
+    }
+}
+
+/*----Technology background image----*/
+.tech-image {
+    background-image: url("assets/technology/background-technology-desktop.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+@media(max-width: 768px) {
+    .tech-image {
+        background-image: url("assets/destination/background-destination-tablet.jpg");
+        background-size: cover;
+        height: 100%;
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+@media(max-width: 576px) {
+    .tech-image {
+        background-image: url("assets/destination/background-destination-mobile.jpg");
+        background-size: cover;
+        height: 100%;
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-repeat: none;
+    }
+}
+
+/*-----------mobile view overflow issue----------*/
+section {
+    overflow-x: hidden;
+}
+
+/*-------------------------------------------------Navbar-----------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*------Navbar brand/logo size------*/
+.navbar-brand {
+    height: 50px;
+    width: 40px;
+}
+
+/*-----Nav item/link margin-----*/
+.menu-nav {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: #e5e9fa;
+    margin-right: 30px;
+    letter-spacing: 3px;
+}
+/*----navbar toggler positioned right-----*/
+.navbar-toggler {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+/*-----nav background blur-----*/
+.nav-background {
+    backdrop-filter: blur(35px);
+}
+
+/*----------------------------------------font+styles p,h1,,h2,icons-----------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*---------------------main styles--------------------*/
+/*-----h3 font+style-----*/
+.barlow-h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 23px;
+    letter-spacing: 5px;
+    color: #d0d6f9;
+    margin-bottom: 30px;
+}
+/*-----h1 font+style-----*/
+.bellefair-h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 140px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+/*---paragragh font+style---*/
+.barlow-p-text {
+    font-family: 'barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d0d6f9;
+    line-height: 29px;
+}
+/*-----main page circle-----*/
+.explore-circle {
+    font-family: 'Bellefair', serif;
+    font-size: 25px;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}
+
+/*------------------mobile main styles-----------------*/
+@media(max-width: 768px) {
+    .barlow-h3 {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1vh, 1vw;
+        letter-spacing: 5px;
+        color: #d0d6f9;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 768px) {
+    .bellefair-h1 {
+        font-family: 'Bellefair', serif;
+        font-size: 20vw;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 768px) {
+    .barlow-p-text {
+        font-family: 'barlow', sans-serif;
+        font-size: 2.6vh, 2.6vw;
+        font-weight: 400;
+        color: #d0d6f9;
+        margin-bottom: 30px;
+    }
+}
+
+/*------------------destination styles-----------------*/
+/*-----distance numbers------*/
+.bellefair-h1-destination {
+    font-family: 'Bellefair', serif;
+    font-size: 114px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.distance-numbers {
+    font-family: 'Bellefair', serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+.barlow-h3-destination {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #d0d6f9;
+}
+/*-------------mobile destination styles--------------*/
+@media(max-width: 768px) {
+    .bellefair-h1-destination {
+        font-family: 'Bellefair', serif;
+        font-size: 20vw;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }    
+}
+/*-------------------crew styles----------------------*/
+.bellefair-h3-crew {
+    font-family: 'Bellefair', serif;
+    font-size: 30px;
+    color: #d0d6f9;
+}
+.bellefair-h2-crew {
+    font-family: 'Bellefair', serif;
+    font-size: 54px;
+    color: #ffffff;
+}    
+.barlow-h3-crew {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+/*----------------mobile crew styles-------------------*/
+@media(max-width: 768px) {
+    .bellefair-h3-crew {
+        font-family: 'Bellefair', serif;
+        font-size: 6vw;
+        color: #d0d6f9; 
+    }
+}
+@media(max-width: 768px) {
+    .bellefair-h2-crew {
+        font-family: 'Bellefair', serif;
+        font-size: 12vw;
+        color: #ffffff;
+    }
+}
+@media(max-width: 768px) {
+    .barlow-h3-crew {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1vh, 1vw;
+        letter-spacing: 5px;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+}
+/*-----crew nav icons------*/
+.bi {
+    backdrop-filter: blur(40px);
+    opacity: 0.2;
+}
+
+/*------------------technology styles-------------------*/
+.barlow-h3-tech {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: #d0d6f9;
+}
+
+/*--technology nav icon--*/
+.tech-nav-icon {
+    font-family: 'Bellefair', serif;
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+/*--hover for tech nav--*/
+.tech-nav-icon:hover {
+    background-color: #ffffff;
+}
+/*-----------------mobile technology styles----------------*/
+/*----nav icon shrink----*/
+@media(max-width: 768px) {
+    .tech-nav-icon {
+        font-family: 'Bellefair', serif;
+        font-size: 15px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+}
+
+/*----------------no line break for mobiles----------------*/
+@media(max-width: 990px) {
+    br {
+        display: none;
+    }
+}
+
+
